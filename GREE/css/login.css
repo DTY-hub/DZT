@@ -1,0 +1,218 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+body{
+	background: #fafafa;
+}
+/* -----------------header----------------- */
+header{
+	height: 110px;
+}
+.header-main{
+	height: 110px;
+	width: 1200px;
+	margin: 0px auto;
+	background: #fff;
+}
+.header-main>img{
+	width: 174px;
+	height: 80px;
+	margin-top: 10px;
+	float: left;
+}
+.header-main i{
+	margin-right: 10px;
+	font-style: normal;
+}
+.header-main>p{
+	width: 140px;
+	float: left;
+	font-size: 24px;
+	line-height: 100px;
+	color: #747474;
+}
+/* -----------------main----------------- */
+main{
+	width: 980px;
+	height: 410px;
+	margin: 10px auto;
+	background: white;
+	border-radius: 2px;
+	box-shadow: 0px 0px 20px #cccccc;
+}
+.main-left{
+	width: 500px;
+	height: 380px;
+	margin: 10px 30px;
+	float: left;
+}
+.main-left>img{
+	width: 500px;
+	height: 380px;
+}
+.main-right{
+	width: 380px;
+	height: 380px;
+	margin: 10px 0px 0px 10px;
+    padding-top: 20px;
+    float: right;
+    position: relative;
+}
+.main-right input{
+	width: 270px;
+	height: 37px;
+    color: #474747;
+    line-height: 37px;
+    padding-left: 15px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    border-radius: 2px;
+    outline: none;
+    font-size: 13px;
+    margin-top: 40px;
+}
+.main-right input:nth-of-type(2){
+	margin-top: 20px;
+}
+.main-right svg{
+	position: absolute;
+	top: 72px;
+	right: 100px;
+}
+.main-right svg:nth-of-type(2){
+	top: 132px;
+}
+.main-right u{
+	text-decoration: none;
+	font-size: 12px;
+	color: #cc0000;
+	display: inline-block;
+}
+.main-right button{
+	height: 40px;
+	width: 287px;
+	background: #cc0000;
+	text-align: center;
+    border: none;
+    font-family: '微软雅黑';
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.main-right>a{
+	display: inline-block;
+	width: 60px;
+	height: 21px;
+	margin-top: 10px;
+	position: absolute;
+	left: 0px;
+	bottom: 150px;
+}
+.main-right>a:nth-of-type(1)>i{
+	background: url('../images/login-QQ-weixin.png') no-repeat;
+	width: 19px;
+    height: 18px;
+    display: inline-block;
+}
+.main-right>a>span{
+	color:#747474 ;
+	vertical-align: top;
+	display: inline-block;
+	font-size: 12px;
+}
+.main-right>a:nth-of-type(2){
+	left: 61px;
+}
+.main-right>a:nth-of-type(2)>i{
+	background: url('../images/login-QQ-weixin.png') no-repeat;
+	background-position: -19px 0px;
+	width: 19px;
+    height: 18px;
+    display: inline-block;
+}
+.main-right span:hover{
+	color: #cc0000;
+}
+.main-right>p{
+	position: relative;
+	margin-top: 45px;
+	font-size: 12px;
+	color:#747474 ;
+}
+.main-right>p>a:nth-of-type(1){
+	position: absolute;
+	left: 0px;
+	cursor: pointer;
+	color: #cc0000;
+	text-decoration: none;
+}
+.main-right>p>a:nth-of-type(2){
+	position: absolute;
+	right: 100px;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: pointer;
+	color: #cc0000;
+}
+/* -----------------footer----------------- */
+footer{
+	height: 381px;
+}
+.footer-main{
+	width: 1200px;
+	/* height: 381px; */
+	margin: 0px auto;
+	
+}
+.footer-bottom{
+	height: 191px;
+	width: 960px;
+	background: #fff;
+	padding: 37px 90px 0px 150px;
+}
+.footer-bottom>dl{
+	float: left;
+	width: 135px;
+	height: 190px;
+	line-height: 15px;
+}
+.footer-bottom>dl>dt{
+	float: left;
+	width: 90px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #525252;
+	/* display: inline-block; */
+	margin-bottom: 18px;
+}
+.footer-bottom>dl>dd{
+	float: left;
+	width: 120px;
+	margin-bottom: 12px;
+}
+ .footer-bottom>dl>dd>a{
+ 	text-decoration: none;
+ 	color: #b2b2b2;
+ 	font-size: 11px; 
+ 	display: block;
+ }   
+.footer-foot{
+	height:56px;
+	/* background: red; */
+	padding: 66px 0px 30px 21px;
+	background: white;
+}
+.footer-foot>div{
+	width: 1179px;
+	height: 56px;	
+}
+.footer-foot>div>p{
+	font-size: 12px;
+	color: #b2b2b2;
+}

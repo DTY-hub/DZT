@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="utf-8">
+
+	<head>
+		<title>格力专卖店</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" href="../images/favicon.ico">
+		<script type="text/javascript" src="../js/jquery-1.8.0.min.js"></script>
+		<link rel="stylesheet" href="../css/GREEshop.css">
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZQVKW0dvz0tgMy6ZytmY5RxZ"></script>
+		<!-- 加载百度地图样式信息窗口 -->
+		<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+		<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+		<!-- 加载城市列表 -->
+		<script type="text/javascript" src="http://api.map.baidu.com/library/CityList/1.2/src/CityList_min.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"></script>
+
+		<title>专卖店</title>
+	</head>
+
+	<body>
+		<div id="l-map"></div>
+		<div id="result">
+			<dl>
+				<dt>查找格力</dt>
+				<dd>
+					<ul>
+						<li><button id="open">打开定位</button><button id="close">关闭定位</button>
+							<button id="fanhui" onclick="fanhui()"><a href="GREEmall.html">返回首页</a></button>
+							<input type="text" id="jiansuo1" title="请输入关键字进行查询"></input>
+							<button id="open1" onclick="refresh()" title="请输入关键字进行查询">查询</button>
+							<dt>更改地图底色</dt>
+							<select id="diseSerach" onchange="refresh()">
+								<option value="light">格力总部</option>
+								<option value="dark">海南盛世欣兴格力贸易有限公司</option>
+								<option value="light">四川盛世欣兴格力贸易有限公司</option>
+								<option value="light">珠海凌达压缩机有限公司</option>
+								<option value="light">厦门盛世欣兴格力贸易有限公司</option>
+								<option value="light">上海盛世欣兴格力贸易有限公司</option>
+								<option value="light">陕西盛世恒兴格力电器销售有限公司</option>
+								<option value="light">安徽盛世欣兴格力贸易有限公司</option>
+								<option value="light">江苏盛世欣兴格力贸易有限公司</option>
+								<option value="light">深圳盛世欣兴格力贸易有限公司</option>
+								<option value="light">东莞市晟世欣兴格力贸易有限公司</option>
+								<option value="light">福建盛世欣兴格力贸易有限公司</option>
+								<option value="light">广州盛世欣兴格力贸易有限公司</option>
+								<option value="light">珠海盛世欣兴粤东格力贸易有限公司</option>
+								<option value="light">广西晟世欣兴格力贸易有限公司</option>
+								<option value="light">河北盛世欣兴格力贸易有限公司</option>
+								<option value="light">湖北盛世欣兴格力电器销售有限公司</option>
+								<option value="light">重庆盛世新兴格力电器销售有限公司</option>
+								<option value="light">佛山盛世欣兴格力贸易有限公司</option>
+							</select>
+
+					</ul>
+				</dd>
+		</div>
+
+		<!--城市列表-->
+		<input type="text" id="jiansuo" value=""></input>
+		<div class="sel_container"><strong id="curCity">北京市</strong> [
+			<a id="curCityText" href="javascript:void(0)">更换城市</a>]</div>
+		<div class="map_popup" id="cityList" style="display:none;">
+			<div class="popup_main">
+				<div class="title">城市列表</div>
+				<div class="cityList" id="citylist_container"></div>
+				<button id="popup_close"></button>
+			</div>
+		</div>
+
+	</body>
+<script src="../js/GREEshop.js"></script>
+	</body>
+
+</html>

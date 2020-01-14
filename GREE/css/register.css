@@ -1,0 +1,328 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+body{
+	background: #fafafa;
+}
+/* -----------------header----------------- */
+header{
+	height: 110px;
+}
+.header-main{
+	height: 110px;
+	width: 1200px;
+	margin: 0px auto;
+	background: #fff;
+}
+.header-main>img{
+	width: 174px;
+	height: 80px;
+	margin-top: 10px;
+	float: left;
+}
+.header-main i{
+	margin-right: 10px;
+	font-style: normal;
+}
+.header-main>p{
+	width: 140px;
+	float: left;
+	font-size: 24px;
+	line-height: 100px;
+	color: #747474;
+}
+/* -----------------main----------------- */
+main{
+	width: 980px;
+	margin: 0px auto;
+	margin-top: 10px;
+	overflow: hidden;
+}
+main>p{
+	clear: both;
+	width: 980px;
+	float: left;
+}
+main>p>button{	
+	width: 142px;
+	height: 45px;
+	background: white;
+	text-decoration: none;
+	border: none;
+	list-style: none;
+	outline-style: none;
+	cursor: pointer;
+	position: relative;
+	z-index: 2;
+}
+.main-user,.main-mail{
+	width: 938px;
+	height: 500px;
+	float: left;
+	padding: 20px;
+	border: 1px solid #e8e8e8;
+	overflow: hidden;
+    text-align: left;
+    background: #fff;
+    margin-top: -1px;
+    position: relative;
+}
+.main-mail{
+	height: 600px;
+	display: none;
+}
+.main-user>form{
+	width: 380px;
+	height: 420px;
+	margin-top: 40px;
+	margin-left: 100px;
+	position: relative;
+}
+.main-user>form>input{
+	float: right;
+	width: 270px;
+	height: 37px;
+    color: #474747;
+    line-height: 37px;
+    padding-left: 15px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    border-radius: 2px;
+    outline: none;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.main-user>form>.code{
+	width: 140px;
+}
+.main-user>form>.btn{
+	float: right;
+	width: 120px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 37px;
+    background: #efefef;
+    font-size: 13px;
+    border: none;
+	list-style: none;
+	outline-style: none;
+	color: #828282;
+}
+.main-user>form>.btn:hover,
+.main-mail>form>.btn:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.main-user>form>svg{
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+.main-user>form>svg:nth-of-type(2){
+	top: 80px;
+}
+.main-user>form>svg:nth-of-type(3){
+	top: 148px;
+}
+.main-user>form>span{
+	font-size: 12px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.main-user>form i{
+	font-style: normal;
+	color: #cc0000;
+}
+.main-user>form>.bun{
+	width: 260px;
+	height: 40px;
+	border: none;
+	list-style: none;
+	outline-style: none;
+	color: #fff;
+	background: #cc0000;
+	position: absolute;
+	left: 104px;
+	bottom: 0px;
+	cursor: pointer;
+}
+.main-user>form>a{
+	font-size: 12px;
+	text-decoration: none;
+	color:  #747474;
+	float: right;
+	margin-top: 21px;
+}
+.main-user>form>a:hover{
+	color: #cc0000;
+}
+.main-user>form>.cbo{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	bottom: 78px;
+	left: 89px;
+}
+.main-user>form>.bun:hover{
+	background: rgba(255, 0, 0, 0.8)
+}
+
+.main-mail>form{
+	width: 380px;
+	height: 520px;
+	margin-top: 40px;
+	margin-left: 100px;
+	position: relative;
+}
+.main-mail>form>input{
+	float: right;
+	width: 270px;
+	height: 37px;
+    color: #474747;
+    line-height: 37px;
+    padding-left: 15px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    border-radius: 2px;
+    outline: none;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.main-mail>form>.code{
+	width: 140px;
+}
+.main-mail>form>.btn{
+	float: right;
+	width: 120px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 37px;
+    background: #efefef;
+    font-size: 13px;
+    border: none;
+	list-style: none;
+	outline-style: none;
+	color: #828282;
+}
+.main-mail>form>svg{
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+.main-mail>form>svg:nth-of-type(2){
+	top: 80px;
+}
+.main-mail>form>svg:nth-of-type(3){
+	top: 148px;
+}
+.main-mail>form>svg:nth-of-type(4){
+	top: 220px;
+}
+.main-mail>form>svg:nth-of-type(5){
+	top: 290px;
+}
+.main-mail>form>span{
+	font-size: 12px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.main-mail>form i{
+	font-style: normal;
+	color: #cc0000;
+}
+.main-mail>form>.bun{
+	width: 260px;
+	height: 40px;
+	border: none;
+	list-style: none;
+	outline-style: none;
+	color: #fff;
+	background: #cc0000;
+	position: absolute;
+	left: 104px;
+	bottom: 0px;
+	cursor: pointer;
+}
+.main-mail>form>a{
+	font-size: 12px;
+	text-decoration: none;
+	color:  #747474;
+	float: right;
+	margin-top: 10px;
+}
+.main-mail>form>a:hover{
+	color: #cc0000;
+}
+.main-mail>form>.cbo{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	bottom: 50px;
+	left: 89px;
+}
+.main-mail>form>.bun:hover{
+	background: rgba(255, 0, 0, 0.8)
+}
+/* -----------------footer----------------- */
+footer{
+	height: 381px;
+	margin-top: 10px;
+}
+.footer-main{
+	width: 1200px;
+	/* height: 381px; */
+	margin: 0px auto;
+	
+}
+.footer-bottom{
+	height: 191px;
+	width: 960px;
+	background: #fff;
+	padding: 37px 90px 0px 150px;
+}
+.footer-bottom>dl{
+	float: left;
+	width: 135px;
+	height: 190px;
+	line-height: 15px;
+}
+.footer-bottom>dl>dt{
+	float: left;
+	width: 90px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #525252;
+	/* display: inline-block; */
+	margin-bottom: 18px;
+}
+.footer-bottom>dl>dd{
+	float: left;
+	width: 120px;
+	margin-bottom: 12px;
+}
+ .footer-bottom>dl>dd>a{
+ 	text-decoration: none;
+ 	color: #b2b2b2;
+ 	font-size: 11px; 
+ 	display: block;
+ }   
+.footer-foot{
+	height:56px;
+	/* background: red; */
+	padding: 66px 0px 30px 21px;
+	background: white;
+}
+.footer-foot>div{
+	width: 1179px;
+	height: 56px;	
+}
+.footer-foot>div>p{
+	font-size: 12px;
+	color: #b2b2b2;
+}
